@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: monospace;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        td, th {
+            border: 1px solid violet;
+            padding: 10px;
+        }
+
+        td.num {
+            text-align: right;
+        }
+
+        thead, tfoot {
+            background-color: rgba(238, 130, 238, 0.522);
+        }
+    </style>
+</head>
+<body>
+    <h1>Tabelas Grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="num">448 553 434</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="num">435 446 656</td>
+            </tr>
+            <tr>
+                <td>Hell de Janeiro</td>
+                <td class="num">376 586 595</td>
+            </tr>  
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total</th>
+                <td class="num"><strong>1 946 873 003</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
