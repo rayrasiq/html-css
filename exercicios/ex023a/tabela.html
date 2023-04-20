@@ -15,10 +15,18 @@
             border: 1px solid grey;
             border-collapse: collapse;
             background-color: rgba(211, 211, 211, 0.514);
+            position: relative;
         }
 
-        thead {
-            background-color: rgba(128, 128, 128, 0.797);
+        thead, tfoot {
+            background-color: rgba(84, 81, 81, 0.918);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: 0;
+            background-color: rgba(84, 81, 81, 0.918);
+            
         }
 
         caption {
@@ -34,9 +42,8 @@
             text-align: right;
         }
 
-        tfoot {
-            text-align: left;
-            background-color: rgba(128, 128, 128, 0.797);
+        tbody > tr:nth-child(2n) {
+            background-color: rgba(128, 128, 128, 0.742);
         }
 
     </style>
