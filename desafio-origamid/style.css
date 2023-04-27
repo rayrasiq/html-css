@@ -40,3 +40,70 @@ p {
     color: black;
     text-transform: uppercase;
 }
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* duas colunas de tamanhos iguais */
+    max-width: 1000px;
+}
+
+.introducao {
+    display: grid;
+    background: white;
+    padding: 40px;
+    text-align: right;
+    position: relative;
+    align-content: center;
+    gap: 20px;
+    justify-items: end;
+}
+
+.botao {
+    background: #e21;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.detalhe {
+    width: 60px;
+    height: 4px;
+    background-color: #e21;
+    position: absolute; /* assim ele não influencia nos outros elementos */
+    top: 30px;
+    right:  -30px;
+}
+
+.subtitulo {
+    font-size: 64px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, .3);
+    text-align: right;
+    padding: 40px;
+    align-self: center;
+}
+
+.vantagens {
+    background: white;
+    padding: 40px;
+}
+
+.vantagens-item {
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    gap: 10px 20px; /* primeiro valor é o valor de linha e o segundo o de coluno */
+    padding: 20px;
+}
+
+.vantagens-item p {
+    grid-column: 2;
+}
+
+.rodape {
+    background: white;
+    width: 100%;
+    text-align: center;
+    padding: 40px;
+    box-sizing: border-box; /* não estoura o conteúdo, pq com os padding o width soma os 100% + os px do padding gerando bala de rolagem */
+}
