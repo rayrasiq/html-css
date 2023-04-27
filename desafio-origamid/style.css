@@ -1,7 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     margin: 0px;
-    background: #f7f7f7;
+    background-color: #f7f7f7;
     display: grid;
     gap: 60px;
     justify-items: center;
@@ -34,7 +34,7 @@ p {
 }
 
 .menu a {
-    background: #ffffff;
+    background-color: white;
     padding: 15px 30px;
     border-radius: 4px;
     color: black;
@@ -49,7 +49,7 @@ p {
 
 .introducao {
     display: grid;
-    background: white;
+    background-color: white;
     padding: 40px;
     text-align: right;
     position: relative;
@@ -59,7 +59,7 @@ p {
 }
 
 .botao {
-    background: #e21;
+    background-color: #e21;
     color: white;
     padding: 15px 30px;
     border-radius: 4px;
@@ -85,7 +85,7 @@ p {
 }
 
 .vantagens {
-    background: white;
+    background-color: white;
     padding: 40px;
 }
 
@@ -101,7 +101,7 @@ p {
 }
 
 .rodape {
-    background: white;
+    background-color: white;
     width: 100%;
     text-align: center;
     padding: 40px;
