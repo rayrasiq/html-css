@@ -1,0 +1,19 @@
+            <h2>Aventure-se</h2> 
+            <h2>com <span class="texto1">Madeline!</span></h2>
+
+            <div class="info">
+                <p>Celeste é um jogo eletrônico de plataforma desenvolvido pelos canadenses Maddy Thorson e Noel Berry, com arte feita pelo estúdio brasileiro MiniBoss.</p>
+                
+                <p>Receba novidades do jogo, assinando a newsletter.</p>
+            </div>
+
+            <form>
+                <input type="text" name="Email" placeholder="Digite seu melhor e-mail" required>
+                <button type="submit"><img src="imagens/Strawberry.webp" width="15px"></button>
+            </form>
+
+            <div id="imagem">
+                <picture>
+                    <img src="imagens/celeste_by_pooterman_dc1ff4f.png" alt="Jogo Celeste">
+                </picture>
+            </div>
