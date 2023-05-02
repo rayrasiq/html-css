@@ -76,6 +76,11 @@ p {
     justify-items: end;
 }
 
+.introducao-cover img {
+    object-fit: cover;
+    height: 100%;
+}
+
 .introducao h1 {
     font-size: 2rem;
 }
@@ -142,4 +147,8 @@ p {
     text-align: center;
     padding: 40px;
     box-sizing: border-box; /* não estoura o conteúdo, pq com os padding o width soma os 100% + os px do padding gerando bala de rolagem */
+}
+
+@media (max-width: 1000px) {
+    .conteudo
 }
