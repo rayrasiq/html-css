@@ -119,7 +119,7 @@ p {
 .vantagens-item {
     display: grid;
     grid-template-columns: 40px 1fr;
-    gap: 10px 20px; /* primeiro valor é o valor de linha e o segundo o de coluno */
+    gap: 10px 20px; /* primeiro valor é o valor de linha e o segundo o de coluna */
     padding: 20px;
     border-left: 4px solid transparent;
 }
